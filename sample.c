@@ -16,14 +16,15 @@ void l_func_new_changed(int c)
 
 int main(int argc, char *argv[])
 {
-	int b = 0;
+	/** remove old line */
+	int test = 0;
 	
-	printf("main test b=%d\n", b);
+	printf("main test b=%d\n", test);
 	
-	l_func(b);
+	l_func(test);
 	
 	/** test */
-	l_func_new_changed(b);
+	l_func_new_changed(test);
 	
 	return 0;
 }

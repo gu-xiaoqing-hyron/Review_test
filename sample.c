@@ -7,7 +7,8 @@ void l_func(int a)
 	return;
 }
 
-void l_func_new(int c)
+/** test */
+void l_func_new_changed(int c)
 {
 	printf("func_new test\n");
 	return;
@@ -21,7 +22,8 @@ int main(int argc, char *argv[])
 	
 	l_func(b);
 	
-	l_func_new(b);
+	/** test */
+	l_func_new_changed(b);
 	
 	return 0;
 }
